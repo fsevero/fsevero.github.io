@@ -19,11 +19,11 @@ avatar: https://avatars3.githubusercontent.com/u/2403326
 footer-links:
   dribbble:
   email: severo.fabricio@gmail.com
-  facebook: https://www.facebook.com/fabricio.severo.52
+  facebook: fabricio.severo.52
   flickr:
-  github: https://github.com/fsevero/
-  instagram: https://www.instagram.com/severo.fabricio/
-  linkedin: https://www.linkedin.com/in/fabrício-severo-6874b9a6
+  github: fsevero
+  instagram: severo.fabricio
+  linkedin: fabrício-severo-6874b9a6
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://fsevero.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
