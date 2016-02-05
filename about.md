@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Desenvolvedor trabalhando atualmente com PHP (CakePHP, Symfony e Slim), mas interessando por Python (Django principalmente, mas também Flask).
+Irei utilizar esse espaço para compartilhar informações sobre essas tecnologias.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[severo.fabricio@gmail.com](mailto:severo.fabricio@gmail.com)
