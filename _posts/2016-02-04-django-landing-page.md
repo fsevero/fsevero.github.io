@@ -102,6 +102,7 @@ Ele deve ser criado em `core/templates/index.html`
 Para utilização dos arquivos estáticos (css, imagens, etc) nos templates:
 
 ```
+{% raw %}
 # Carrega as template tags
 {% load static %}
  
@@ -112,6 +113,7 @@ Para utilização dos arquivos estáticos (css, imagens, etc) nos templates:
 (src|href)="((img|css|js).*?)" 
 # PARA
 $1="{% static '$2' %}"
+{% endraw %}
 ```
 
 Agora falta criarmos a rota expondo a view. Para isso, no arquivo `urls.py`, adicionar o seguinte código:
