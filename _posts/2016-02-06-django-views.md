@@ -98,6 +98,7 @@ def speaker_detail(request, slug):
 
 #### Generic Views
 ```python
+{% raw %}
 from django.views.generic import ListView, DetailView
 from eventex.core.models import Speaker, Talk
 
@@ -111,4 +112,5 @@ speaker_detail = DetailView.as_view(model=Speaker)
 talk_list = ListView.as_view(model=Talk)
 # app_name/talk_list.html
 # {{ app_name}}/{{ model_name }}_list.html
+{% endraw %}
 ```
