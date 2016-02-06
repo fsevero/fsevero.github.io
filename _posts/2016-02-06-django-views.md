@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django - TEST FIRST
+title: Django - Views
 ---
 Este post irá conter uma "coletânea" de formas de criar views no [Django](https://www.djangoproject.com/).
 Ele não será um passo a passo de como fazer views.
