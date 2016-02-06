@@ -134,20 +134,20 @@ podemos quebrar esse arquivo, e criar, dentro da app `core` um arquivo `urls.py`
 # urls.py do project_name
 urlpatterns = [
     # ...
-    url(r'^prefixo/',
-        include('project_name.subscriptions.core',
+    url(r'^homepage/',
+        include('project_name.core.urls',
         namespace='core')),
     # ...
 ]
  
 # urls.py do core
-from project_name.subscriptions.core import home
+from project_name.core.views import home
  
 urlpatterns = [
     url(r'^$', home, name='home'),
 ]
 ```
 
-Dessa forma, a view estará exposta em `prefixo/`.
+Dessa forma, a view `home` estará exposta em `/homepage/`.
 
-**Obs.:** O `prefixo` pode muito bem ser especificado como "vazio" (`r'^'`). Desta forma, a url exposta seria apenas `/`
+**Obs.:** A url no `include` pode muito bem ser especificado como "vazia" (`r'^'`). Desta forma, a url exposta para a view `home` seria apenas `/`
