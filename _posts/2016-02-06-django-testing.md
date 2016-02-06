@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iniciando um projeto com o Django
+title: Django - TEST FIRST
 ---
 Este post irá conter uma "coletânea" de formas de testar seu código [Django](https://www.djangoproject.com/).
 Ele não será um passo a passo de como fazer TDD ou testes de regressão.
